@@ -41,3 +41,6 @@ Using the bash script below, we can run each method as many times as we want and
 
 ##Groovy
 ```for((i=1; i<100; i++)); do groovy GroovyScriptName.groovy; done | tee Method.log```
+
+#Results
+![Results in seconds](https://github.com/StoicNZ/xml-parsing-benchmark/blob/master/seconds)
