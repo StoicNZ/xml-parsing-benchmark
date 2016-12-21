@@ -5,7 +5,8 @@ I wrote a few scripts to compare parsing speeds between different libraries usin
 
 The XML is in the format kind of like this:
 
-```<entry>
+```
+<entry>
   <element1>value</element1>
   <element2>value</element2>
   <element3>value</element3>
@@ -24,7 +25,8 @@ The XML is in the format kind of like this:
   <element6>value</element6>
   <element7>value</element7>
   <element8>value</element8>
-</entry>```
+</entry>
+```
 
 We are only grabbing the even elements and storing them in an array of hashmaps. (ie ```[{element2: value, element4: value..},{..}]```)
 
