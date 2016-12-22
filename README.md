@@ -37,7 +37,7 @@ In the NVD 2011 dataset there are more than 4000 entries, we test each method ma
 Using the bash script below, we can run each method as many times as we want and log the time entries to a file where we can work out averages. We can also pass in different parameters for the JVM (ie min and max heaps size, -Xms512m and -Xmx16g)
 
 ##Java
-```for((i=1; i<10; i++)); do java -cp compiled.jar MethodClassName; done | tee Method.log```
+```for((i=1; i<100; i++)); do java -cp compiled.jar MethodClassName; done | tee Method.log```
 
 ##Groovy
 ```for((i=1; i<100; i++)); do groovy GroovyScriptName.groovy; done | tee Method.log```
